@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja Online</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.7.3/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .product-card {
+      border: 1px solid #dee2e6;
+      border-radius: 8px;
+      overflow: hidden;
+      margin: 20px;
+      background-color: #ffffff;
+      transition: box-shadow 0.3s;
+    }
+
+    a {
+      text-decoration: none; 
+      color: #007bff; 
+      transition: color 0.3s; 
+    }
+
+    a:hover {
+      color: #0056b3; 
+      text-decoration: none; 
+    }
+
+    a:visited {
+      color: # purple; 
+    }
+    
+    header {
+      background-color: #e91313;
+      color: #fff;
+      text-align: center;
+      padding: 1em;
+    }
+
+    .product-card:hover {
+      box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    }
+
+    .product-image {
+      max-height: 200px;
+      object-fit: cover;
+      width: 100%;
+    }
+
+    .product-details {
+      padding: 20px;
+    }
+
+    .product-title {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .product-price {
+      color: #e44d26;
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 5px;
+    }
+
+    .btn-add-to-cart {
+      background-color: #007bff;
+      color: #ffffff;
+      border: none;
+      padding: 8px 16px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .btn-add-to-cart:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+    <header>
+        <h1>R-ATACADÃO</h1>
+    </header>
+    
+    
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="riri.html">Página Inicial</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="produto.html">Produtos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="ofertas.html">Ofertas</a>
+      </li>
+        <li class="nav-item">
+          <a class="nav-link" href="carrinho.html">Carrinho</a>
+        </li>
+      </ul>
+
+    <div class="row">
+      
+      <a href = "Ver_mais.html">
+            <div class="col-md-4">
+                <div class="product-card" style="widht: 50px;">
+                <img src="https://i.zst.com.br/thumbs/12/32/2f/1183197132.jpg" alt="Produto 1" class="product-image" style="height: 300px; width: 200px;">
+                <div class="product-details">
+                    <h3 class="product-title">LIQUIDIFICADOR</h3>
+                    <p></p>
+                    <p class="product-price">R$ 99,99</p>
+                    <button class="btn btn-add-to-cart">Adicionar ao Carrinho</button>
+                </div>
+                </div>
+            </div>
+       </a>
+
+      
+      <a href="Ver_mais.html">
+        <div class="col-md-4">
+        <div class="product-card">
+          <img src="https://cdn.sistemawbuy.com.br/arquivos/79104a158b8ce81b0b5f28984833340e/produtos/LAE4YEI5/foga-o-a-ga-s-clarice-delicato-6-bocas-manual-forno-83-litros-branco1-61b4cfdde5631.jpg" alt="Produto 2" class="product-image">
+          <div class="product-details">
+            <h3 class="product-title">FOGÃO</h3>
+            <p></p>
+            <p class="product-price">R$ 299,99</p>
+            <button class="btn btn-add-to-cart">Adicionar ao Carrinho</button>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="col-md-4">
+        <div class="product-card">
+          <img src="https://t62533.vteximg.com.br/arquivos/ids/239043-1000-1000/refrigerador-electrolux-duplex-cycle-defrost-260l---dc35a-3.jpg?v=637783024264130000" alt="Produto 1" class="product-image">
+          <div class="product-details">
+            <h3 class="product-title">GELADEIRA ELECTROLUX</h3>
+            <p></p>
+            <p class="product-price">R$ 400,99</p>
+            <button class="btn btn-add-to-cart">Adicionar ao Carrinho</button>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="col-md-4">
+        <div class="product-card">
+          <img src="https://crmagazineexpress.com.br/wp-content/uploads/2022/06/Sofa-Retratil-Reclinavel-2.30m-Emanuelly-Veludo-Cinza.jpg" alt="Produto 1" class="product-image">
+          <div class="product-details">
+            <h3 class="product-title">SOFÁ RETRATIL</h3>
+            <p></p>
+            <p class="product-price">R$ 300,99</p>
+            <button class="btn btn-add-to-cart">Adicionar ao Carrinho</button>
+          </div>
+        </div>
+      </div> 
+
+      <div class="col-md-4">
+        <div class="product-card">
+          <img src="https://images.tcdn.com.br/img/img_prod/1215519/cama_de_casal_orleans_com_2_gavetas_madeira_macica_bedroom_3497_1_3e456ef33999144586d07064d1e75211.jpg" alt="Produto 1" class="product-image">
+          <div class="product-details">
+            <h3 class="product-title">CAMA DE CASAL</h3>
+            <p></p>
+            <p class="product-price">R$ 430,99</p>
+            <button class="btn btn-add-to-cart">Adicionar ao Carrinho</button>
+          </div>
+        </div>
+      </div> 
+
+      <div class="col-md-4">
+        <div class="product-card">
+          <img src="https://a-static.mlcdn.com.br/450x450/kit-maquiagem-completa-necessaire-super-completa-bz67-3-pele-parda-bazar-na-web/bazarnaweb/701342049/8e46574a265644cbc79da4968f44b674.jpeg" alt="Produto 1" class="product-image">
+          <div class="product-details">
+            <h3 class="product-title">KIT DE MAQUIAGENS</h3>
+            <p></p>
+            <p class="product-price">R$ 120,99</p>
+            <button class="btn btn-add-to-cart">Adicionar ao Carrinho</button>
+          </div>
+        </div>
+      </div> 
+
+
+      
+
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

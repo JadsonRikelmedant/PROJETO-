@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R-ATACADÃO</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.7.3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+      }
+      header {
+        background-color: #e91313;
+        color: #fff;
+        text-align: center;
+        padding: 1em;
+      }
+      section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 1em;
+      }
+      .produto {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 1em;
+        margin: 1em;
+        width: 300px;
+      }
+
+      .custom-background {
+        background-color: #e91313; 
+      }
+
+      .custom-text-color {
+      color: #f4f4f4; 
+      }
+    </style>
+  </head>
+  <body>
+
+
+    <header>
+      <h1>R-ATACADÃO</h1>
+    </header>
+
+
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="pagina_inicial.html">Página Inicial</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="produto.html">Produtos</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link " href="ofertas.html">Ofertas</a>
+    </li>
+      <li class="nav-item">
+        <a href="carrinho.html">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+          <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+        </svg>
+      </a>
+      </li>
+    </ul>
+
+
+    <section class="container">
+      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://s2-g1.glbimg.com/V0pb5K3_o9tqwyK4K39-y6mhcy0=/0x0:1920x1080/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/i/m/AaV7SJSHmE1BThpXr1sQ/img-materia-destaque.jpg"  class="d-block w-100" alt="Produto 1" width="1000" height="800">
+          </div>
+          <div class="carousel-item">
+            <img src="https://w7.pngwing.com/pngs/375/386/png-transparent-rustic-furniture-table-bedroom-furniture-sets-living-room-bedroom-angle-furniture-couch.png" class="d-block w-100" alt="Produto 2" width="1000px" height="800px">
+          </div>
+          <div class="carousel-item">
+            <img src="https://jornalrazao.com/storage/images/posts/e4b3d984ad642c1198a02f279abf9235.jpg" class="d-block w-100" alt="Produto 3" width="1000px" height="800px">
+          </div>
+          <div class="carousel-item">
+            <img src="https://thumbs.dreamstime.com/b/roupas-modernas-de-homens-apresentadas-em-prateleiras-e-cabides-na-loja-para-191961220.jpg" class="d-block w-100" alt="Produto 4" width="1000px" height="800px">
+          </div>
+          <div class="carousel-item">
+            <img src="https://poracaso.com/wp-content/uploads/elementor/thumbs/colecao-close-up-de-produtos-de-maquiagem-e-beleza-q718ddbfe823p2x2ma0pv3kl1v6omytjkhnmk0c1jk.jpg" class="d-block w-100" alt="Produto 5" width="1000px" height="1000px">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      
+    <div class="why-choose-section custom-background">
+        <div class="container custom-text-color">
+          <div class="row justify-content-between">
+              <h1> Bem-vindo à R-ATACADÃO: Sua Melhor Escolha em Compras no Atacado!</h1>
+              <p>Na R-Atacadão, comprometemo-nos em oferecer a você uma experiência de compras no atacado excepcional, proporcionando produtos de qualidade a preços acessíveis. Somos uma loja que valoriza a economia, praticidade e a satisfação do cliente. </p>
+            
+                <p> Por que escolher a R-Atacadão?</p>
+                <ul>
+                    <li>
+                        Variedade de Produtos: Explore nossa ampla gama de produtos, desde alimentos e bebidas até itens de higiene pessoal e muito mais. Oferecemos uma seleção diversificada para atender às suas necessidades diárias e empresariais.
+                    </li>
+                    </br>
+                    <li>
+                        Preços Competitivos: Na R-Atacadão, acreditamos que economizar não significa comprometer a qualidade. Oferecemos preços competitivos para que você possa obter mais pelo seu investimento, seja para uso pessoal ou para revenda.
+                    </li>
+                    </br>
+                    <li>
+                        Compras Rápidas e Convenientes: Nosso processo de compra é simples e eficiente. Permitimos que você faça suas compras de forma rápida e conveniente, para que você possa dedicar mais tempo ao que realmente importa.
+                    </li>
+                    </br>
+                    <li>
+                        Atendimento ao Cliente Excepcional: Estamos comprometidos em proporcionar uma experiência de atendimento ao cliente excepcional. Nossa equipe dedicada está pronta para ajudar e responder a quaisquer perguntas que você possa ter.
+                    </li>
+                    </br>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.7.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <script>
+      function mostrarDescricao(nomeProduto, descricaoProduto) 
+        const descricaoPopup = 
+          <div class="modal fade" id="descricaoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">${nomeProduto}</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+    </script>               
+
+  </body>
+</html>
